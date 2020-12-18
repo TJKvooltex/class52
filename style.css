@@ -1,0 +1,66 @@
+h1{ color:blue}  
+
+
+.header{
+background-color: chartreuse;
+
+display:flex;
+
+justify-content: space-between;
+}
+body{
+    background-color: #32cd32 ;
+ }
+
+.grid{
+
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+
+
+.footer{
+display: flex;
+justify-content: flex-end;
+}
+.everything{
+background-color: chartreuse;
+}
+
+.menu{
+  margin-right: 100px;
+   
+
+
+}
+
+.menu a{
+
+margin-left: 20px;
+
+}
+
+
+.item{
+position: relative;
+
+
+}
+.item h3 {
+position: absolute;
+top:50%; 
+left:50%;
+color:aliceblue;
+transform:translate(-50%,-50%);
+opacity:0;
+}
+
+
+.item:hover h3{
+opacity:1;
+}
+
+.item:hover img {
+opacity:0.33;
+} 
